@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+.mark{
+    font-size: 50px;
+    font-weight: bold;
+    color: #f44;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.container{
+    background-color:rgba(107, 191, 206, 0.738);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    width: 75%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 80px;
+}
+
+input{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: 220px;
+    padding: 10px;
+    outline: none;
+    background: #f1f1f1;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input:focus {
+    border-color: #f44;
+}
+
+input::placeholder{
+    color: #999;
+}
